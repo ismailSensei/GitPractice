@@ -5,7 +5,7 @@ describe('template spec', () => {
   it('passes', () => {
     cy.visit('https://example.cypress.io')
   })
-  it('Fail', () => {
+  it('Pass', () => {
     cy.visit('https://example.cypress.io')
   })
 })
